@@ -6,5 +6,5 @@ export class Todo{
     id : number;
 
     @Column()
-    title:String;
+    name:string;
 }
